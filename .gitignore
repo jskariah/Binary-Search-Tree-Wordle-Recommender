@@ -1,0 +1,31 @@
+# Build outputs
+build/
+*.o
+*.obj
+*.exe
+*.out
+*.dSYM/
+
+# Compiled binaries
+bstset_tests
+bstset_main
+wordle_tests
+wordle_main
+wordle_server
+
+# Zip files
+*.zip
+
+# Editor settings
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Windows/WSL metadata
+*Zone.Identifier
+
+# Course handouts / assignment PDFs
+*.pdf
