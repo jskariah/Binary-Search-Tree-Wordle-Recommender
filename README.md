@@ -56,7 +56,7 @@ It supports:
 - Recursion
 - File input/output
 - GoogleTest
-- Makefile
+  
 
 ## Project Structure
 
