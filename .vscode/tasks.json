@@ -1,0 +1,77 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "build bstset_tests",
+      "command": "make bstset_tests",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "close": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": true,
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "type": "shell",
+      "label": "build bstset_main",
+      "command": "make bstset_main",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "close": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": true,
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "type": "shell",
+      "label": "build wordle_tests",
+      "command": "make wordle_tests",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "close": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": true,
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "type": "shell",
+      "label": "build wordle_main",
+      "command": "make wordle_main",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "close": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": true,
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
