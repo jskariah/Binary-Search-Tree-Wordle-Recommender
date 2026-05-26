@@ -1,4 +1,4 @@
-# BSTSet and Wordle Recommender
+# BST and Wordle Recommender
 
 ## Overview
 
